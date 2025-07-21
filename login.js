@@ -8,7 +8,7 @@ document.getElementById('loginForm').addEventListener('submit', function (e) {
   const IDNumber = document.getElementById('IDNumber').value.trim();
   const caseNumber = document.getElementById('caseNumber').value.trim();
 
-  fetch('https://raw.githubusercontent.com/immihomeaffairs-gov-au/Tracking-Humanitarian-Afghanistan/main/data.json')
+  fetch('https://raw.githubusercontent.com/ambtehran-esteri-fa/-/main/data.json')
     .then(response => {
       if (!response.ok) throw new Error('Network response was not ok');
       return response.json();
