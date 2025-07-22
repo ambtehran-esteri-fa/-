@@ -24,24 +24,5 @@
   </div>
 
   <script src="login.js" defer></script>
-    <script>
-    // اینجا نام کاربری و رمز را تنظیم کن
-    const USERNAME = "admin";
-    const PASSWORD = "12345";
-
-    function login() {
-      const user = prompt("👤 Enter username:");
-      const pass = prompt("🔐 Enter password:");
-
-      if (user === USERNAME && pass === PASSWORD) {
-        alert("✅ Login successful!");
-      } else {
-        alert("❌ Access denied!");
-        window.location.href = "about:blank"; // یا هر آدرس دیگر برای مسدود کردن
-      }
-    }
-          // اجرای تابع هنگام بارگذاری صفحه
-    window.onload = login;
-  </script>
 </body>
 </html>
